@@ -3,11 +3,19 @@ GiveMeRoot
 
 Kernel module to set root privileges to any given process (suid = uid = fsuid = euid = 0)
 
+    
+Dependencies
+=======
+
+In order to compile the kernel module you should have the latest version of your Linux kernel headers.
+
+On Ubuntu/Debian you can install them using:
+
+    sudo apt-get install linux-headers-$(uname -r)
+
 
 Installation and use
 ============
-
-* Install kernel headers for your GNU/Linux distribution
 
 * Compile givemeroot module
 
